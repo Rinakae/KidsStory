@@ -1,0 +1,98 @@
+.header
+  padding: 17px 0 34px 0
+  border: 1px solid lightblue
+  &__container
+    max-width: 1420px
+  &__address
+    display: flex
+    align-items: center
+    justify-content: end
+    font-size: 12px
+    line-height: 15px
+    color: $orange
+  &-address
+    &__second
+      margin-left: 25px
+      &-blue
+        color: $blue
+  &__main
+    display: flex
+    justify-content: space-between
+  &__nav
+    align-self: end
+    &-list
+      display: flex
+      margin: 0
+  &__wrapper-contact
+    display: flex
+  &__contact
+    align-self: end
+    display: flex
+    &-tel
+      margin-right: 23px
+    &-form
+      width: 76px
+      display: flex
+      justify-content: space-between
+      margin-right: 30px
+  &-tel
+    text-align: end
+    &__block-number
+      font-family: 'Gotham Pro'
+      font-style: normal
+      font-weight: 400
+      font-size: 20px
+      line-height: 19px
+      color: $darkblue
+    &__callback
+      font-weight: 700
+      font-size: 10px
+      line-height: 12px
+      color: $orange
+  &__button
+    padding: 11px 12px 14px 12px
+    margin-top: 13px
+    height: 40px
+    text-align: center
+    background: $purple
+    border: none
+    border-radius: 50px
+    font-weight: 700
+    font-size: 12px
+    line-height: 15px
+    color: $white
+    cursor: pointer
+    &:hover
+      background-color: $orange
+.nav-list
+  &__menu
+    display: none
+  &__item
+    &:nth-child(1)
+      margin-right: 20px
+    &:nth-child(2)
+      margin-right: 15px
+    &:nth-child(3)
+      margin-right: 16px
+    &:nth-child(4)
+      margin-right: 19px
+    &:nth-child(5)
+      margin-right: 19px
+    &-arrow
+      margin-top: 8px
+      width: 14px
+      height: 7px
+      fill: #334155
+      stroke: #334155
+      &:hover
+        fill: $orange
+        stroke: $orange
+  &__link
+    display: flex
+    flex-direction: column
+    align-items: center
+    font-size: 14px
+    line-height: 17px
+    color: $darkblue
+    &:hover
+      color: $orange
