@@ -1,0 +1,42 @@
+.services
+  border: 1px solid $orange
+  padding-top: 102px
+  padding-bottom: 116px
+  position: relative
+  &__container
+    max-width: 1420px
+  &__svg
+    position: absolute
+    left: 0
+  &__wrapper
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+    justify-content: space-evenly
+    row-gap: 25px
+  &__service
+    width: calc(100% / 3)
+    display: flex
+    align-items: center
+  &__block
+    display: flex
+    align-items: center
+    justify-content: center
+    background: red
+    border-radius: 10px
+    width: 76px
+    height: 76px
+    margin-right: 20px
+  .orange
+    background: $light-orange
+  .pink
+    background: $pink
+  .purple
+    background: $purple
+  &__name
+    font-weight: 700
+    font-size: 16px
+    line-height: 20px
+    color: $darkblue
+  &__time
+    font-weight: 500

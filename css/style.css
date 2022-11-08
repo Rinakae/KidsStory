@@ -748,4 +748,68 @@ ul {
   color: #FFFFFF;
   /* отмеченный */
 }
+
+.services {
+  border: 1px solid #EA5D4A;
+  padding-top: 102px;
+  padding-bottom: 116px;
+  position: relative;
+}
+
+.services__container {
+  max-width: 1420px;
+}
+
+.services__svg {
+  position: absolute;
+  left: 0;
+}
+
+.services__wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 25px;
+}
+
+.services__service {
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+}
+
+.services__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  border-radius: 10px;
+  width: 76px;
+  height: 76px;
+  margin-right: 20px;
+}
+
+.services .orange {
+  background: #F6B31F;
+}
+
+.services .pink {
+  background: #F3ACC8;
+}
+
+.services .purple {
+  background: #8081BD;
+}
+
+.services__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #334155;
+}
+
+.services__time {
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
