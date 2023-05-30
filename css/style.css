@@ -370,6 +370,19 @@ ul {
   font-style: normal;
 }
 
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #8081BD;
+}
+
 .header {
   padding: 17px 0 34px 0;
   border: 1px solid lightblue;
@@ -983,5 +996,30 @@ ul {
 
 .addservices__link:hover {
   color: #8081BD;
+}
+
+.videogallery__container {
+  max-width: 1420px;
+  padding-top: 91px;
+  padding-bottom: 160px;
+}
+
+.videogallery__title {
+  margin-bottom: 24px;
+}
+
+.videogallery__subtitle {
+  margin-bottom: 44px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334155;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */

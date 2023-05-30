@@ -9,8 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/img/icons8-idea-arcade-32.png">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" ></script>
   <script src="./dist/main.js" defer></script>
+
 </head>
 <body>
   <header class="header">
@@ -327,6 +332,37 @@
     </div>
   </section>
   <!-- /.addservices -->
+
+  <section class="videogallery">
+    <div class="videogallery__container container">
+      <div class="videogalery__wrapper">
+        <h2 class="videogallery__title">Видеогалерея нашего сада</h2>
+        <p class="videogallery__subtitle">Вы можете ознакомиться как проходят наши будни</p>
+        <div class="videogallery__video-slider">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          </div>
+        </div>
+      </div>
+      <!-- /.videogalery__wrapper -->
+    </div>
+  </section>
+  <!-- /.videogallery -->
 
 </body>
 </html>
