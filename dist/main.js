@@ -1,1 +1,1 @@
-(()=>{"use strict";new Swiper(".swiper",{loop:!0,pagination:{el:".swiper-pagination"},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},scrollbar:{el:".swiper-scrollbar"}})()})();
+(()=>{"use strict";new Swiper(".swiper",{loop:!0,centeredSlides:!0,slidesPerView:3,pagination:{el:".swiper-pagination",clickable:!0,speed:1e3},speed:1e3})()})();

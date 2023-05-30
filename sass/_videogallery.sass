@@ -2,18 +2,60 @@
   &__container
     max-width: 1420px
     padding-top: 91px
-    padding-bottom: 160px
+    padding-bottom: 60px
   &__title
     margin-bottom: 24px
   &__subtitle
-    margin-bottom: 44px
+    margin-bottom: 39px
     font-family: 'Montserrat'
     font-style: normal
     font-weight: 500
     font-size: 20px
     line-height: 24px
     color: #334155
+  &__video-slider
+    position: relative
+    .image-decor:nth-child(2)
+      position: absolute
+      top: 243px
+      left: 300px
+      z-index: 5
 
 .swiper
-  width: 600px
-  height: 300px
+  display: flex
+  padding-top: 44px
+  padding-bottom: 86px
+  &-container
+    max-width: 1420px
+    margin: 0 auto
+  &-wrapper
+    display: flex
+  &-slide
+    opacity: 0.6
+    &-active
+      z-index: 20
+      opacity: 1
+.block
+  height: 255px
+  border-radius: 20px
+  overflow: hidden
+  &-img
+    width: 100%
+    height: 255px
+    object-fit: cover
+.swiper-slide, .block
+  transition: all 0.5s ease
+.swiper-slide-active .block
+  transform: scale(1.3)
+  transition: all 0.5s ease
+.swiper-slide-active
+  z-index: 20
+  opacity: 1
+.swiper-pagination-bullet
+  width: 14px
+  height: 14px
+  margin: 0 11px !important
+  background: #FDDC4E
+
+  &-active
+    background-color: #EA5D4A
